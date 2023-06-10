@@ -21,6 +21,12 @@
   top: 60%;
 }
 @media screen and (min-width: 960px) { /* pc用スタイル */
+  .title{
+    font-size: 2.0rem;
+  }
 }
 @media screen and (max-width: 959px) { /* sp用スタイル */
+  .title{
+    font-size: 1.2rem;
+  }
 }
