@@ -1,0 +1,26 @@
+/* 共通スタイルは外に書く */
+.titleBox,.calcBox,.resetBox{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.titleBox{
+  top: 40%;
+}
+
+.calcBox{
+  top: 50%;
+  display: flex;
+  gap: 50px;
+  font-size: 2rem;
+}
+
+.resetBox{
+  top: 60%;
+}
+@media screen and (min-width: 960px) { /* pc用スタイル */
+}
+@media screen and (max-width: 959px) { /* sp用スタイル */
+}
