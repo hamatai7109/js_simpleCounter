@@ -1,5 +1,5 @@
 /* 共通スタイルは外に書く */
-.titleBox,.calcBox,.resetBox{
+.titleBox,.matchList,.calcBox,.resetBox{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -10,15 +10,26 @@
   top: 40%;
 }
 
-.calcBox{
+.matchList{
   top: 50%;
   display: flex;
+}
+
+.matchImg{
+  height: 80px;
+  object-fit: cover;
+}
+
+.calcBox{
+  top: 60%;
+  display: flex;
+  align-items: center;
   gap: 50px;
   font-size: 2rem;
 }
 
 .resetBox{
-  top: 60%;
+  top: 70%;
 }
 @media screen and (min-width: 960px) { /* pc用スタイル */
   .title{
