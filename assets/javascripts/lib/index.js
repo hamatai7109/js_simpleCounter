@@ -7,7 +7,11 @@ function countUp(){
 }
 
 function countDown(){
-  count--;
+  if(count > 0){
+    count--;
+  }else{
+    count = 0;
+  }
   document.getElementById('jsi-result').innerHTML = count;
   document.getElementById('jsi-match').lastElementChild.remove();
 }
